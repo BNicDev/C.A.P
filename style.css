@@ -1,0 +1,110 @@
+:root{
+    --first-color: #faf8d7; 
+    --second-color: #acc6aa;
+    --third-color: #71a0a5;
+    --fourth-color: #77628c; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(172,198,170);
+    background: linear-gradient(90deg, rgba(172,198,170,1) 10%, rgba(113,160,165,0.8407738095238095) 50%, rgba(119,98,140,1) 90%);
+}
+nav{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.logo{
+    background-image: url(/src/img/WhatsApp\ Image\ 2023-06-22\ at\ 9.36.34\ PM.jpeg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    border-radius: 30%;
+    border: none;
+    margin-left: 1rem;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    left: 75%;
+}
+ul{
+    list-style: none;
+    color: var(--first-color);
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+    height: 25px;
+    text-align: right;
+    
+}
+ul li:hover{
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.main-container{
+    height: 100%;
+    display: flex;
+}
+.first-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0;
+}
+.first-section img{
+    margin-left: 50px;
+}
+.who{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: var(--fourth-color);
+    border-radius: 20%;
+    color: #ffffff;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.who h2{
+    margin-bottom: 10px;
+}
+.who p{
+    font-size: large;
+    line-height: normal;
+    text-align: center;
+}
+.buttons{
+ height: 40px;
+ width: 200px;   
+ border-radius: 10px;
+ border: none;
+ background-color: var(--first-color);
+}
+.second-section{
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid var(--first-color);
+    border-bottom: 2px solid var(--first-color);
+}
+.second-section h4{
+    margin: 0;
+    padding-top: 10px;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    font-size:x-large ;
+    font-weight: 700;
+}
